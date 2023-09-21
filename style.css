@@ -1,0 +1,109 @@
+body {
+    overflow-x: hidden;
+}
+  
+
+.header{
+    background-color: rgb(226, 233, 249);
+    height: 70px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.logo-menu{
+    height: 70px;
+    margin-left: 2%;
+  }
+
+.menu li{
+    float: left;
+    padding: 25px 25px 15px 25px;
+    text-align: center;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    background-color: transparent;
+    margin: 0;
+    
+  }
+  
+.menu li:hover{
+    background-color: white;
+}
+
+.capa{
+    background-image: url("./img/capa.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    box-sizing: border-box;
+    height: 600px;
+    width: 100%;
+}
+
+#agendar-button:hover{
+    background-color: rgb(226, 233, 249) ;
+    color: black
+}
+
+#card{
+    height:590px;
+}
+
+#card img{
+    height: 180px;
+}
+
+.logo-texto{
+    position: relative;
+    top: 30%;
+    left: 45%;
+}
+
+.logo-texto h1{
+    position: relative;
+    right: 10%;
+    background-color:rgba(255, 255,255, 0.4);
+    width: fit-content;
+}
+
+.pagination{
+    margin-top: 2%;
+}
+
+footer{
+    background-color: rgb(226, 233, 249);
+    height: 120px;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.footer{
+    padding: 2px;
+    position: relative;
+    left:80%;
+}
+
+.footer button{
+    margin: 2px;
+}
+
+.fonte-texto{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+

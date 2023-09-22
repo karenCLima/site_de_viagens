@@ -67,16 +67,20 @@ body {
 
 .logo-texto{
     position: relative;
-    top: 50%;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .logo-texto h1{
     position: relative;
-    right: 10%;
+    transform: translate(-50%, 50%);
     background-color:rgba(255, 255,255, 0.4);
     width: fit-content;
+}
+
+.logo-texto img{
+    position: relative;
+    transform: translate(-50%, 0%);
 }
 
 .pagination{

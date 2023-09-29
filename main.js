@@ -68,7 +68,7 @@ let listaLugares =[
 listaLugares.map((lugar, posicao) =>{
     let cardLugar = document.getElementById("cards");
     cardLugar.innerHTML += `
-    <div class="col-md-3 ">
+    <div class="col-md-3 " id="pacote">
             <div id="card" class="card m-2 flex-fill" style="heigth: 16rem;">
                 <img src="${lugar.img}" class="card-img-top card-image-bottom" alt="..." style="width: 243">
                 <div class="card-body flex-fill">

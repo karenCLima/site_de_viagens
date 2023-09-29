@@ -1,0 +1,130 @@
+@media screen and (max-width: 3000px){
+    .menu{
+        margin-right: 107rem;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+    #cards{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 8%;
+    }
+
+    #pacote{
+        margin-bottom: 2%;
+        width:27%
+    }
+    #card {
+        height: 38rem;
+    }
+    .menu{
+        margin-right: 76rem;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #cards{
+        gap: 2%;
+    }
+
+    #pacote{
+        width: 32%;
+    }
+
+    #card{
+        height: 39rem;
+    }
+}
+
+@media screen and (max-width: 1008px){
+    #cards{
+        gap: 1%;
+        justify-content: space-around;
+    }
+
+    #pacote{
+        width: 48%;
+    }
+
+    #card{
+        height: 39rem;
+    }
+
+    .menu{
+        margin-right: 45rem;
+    }
+    
+    .footer{
+        left:40%;
+    }
+    footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 782px){
+    .menu{
+        margin-right: 30rem;
+    }
+
+    .footer{
+        left:40%;
+    }
+
+    #pacote{
+        width: 50%;
+    }
+    #cards{
+        gap: 0;
+    }
+
+    #card{
+        height: 45rem;;
+    }
+}
+@media screen and (max-width: 710px){
+    .menu{
+        margin-right: 22rem;
+    }
+
+    .menu li a{
+        font-size: 1rem;
+    }
+
+    .footer{
+        left:40%;
+    }
+    #pacote{
+        width: 98%;
+    }
+
+    #card{
+        height: 40rem;;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .menu{
+        margin-right: 14rem;
+    }
+}
+
+@media screen and (max-width: 495px){
+    .menu li a{
+        font-size: 0.7rem;
+    }
+
+    .menu li{
+        padding: 0.9rem 0.9rem 0.9rem 0.9rem;
+    }
+
+    .menu{
+        margin-right: 11rem;
+    }
+
+    .capa h1{
+        font-size: 1rem;
+    }
+}

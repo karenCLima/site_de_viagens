@@ -1,9 +1,3 @@
-@media screen and (max-width: 3000px){
-    .menu{
-        margin-right: 107rem;
-    }
-}
-
 @media screen and (max-width: 1420px) {
     #cards{
         display: flex;
@@ -19,9 +13,11 @@
     #card {
         height: 38rem;
     }
-    .menu{
-        margin-right: 76rem;
+
+    .header{
+        gap: 16%;
     }
+    
 }
 
 @media screen and (max-width: 1200px){
@@ -52,8 +48,8 @@
         height: 39rem;
     }
 
-    .menu{
-        margin-right: 45rem;
+    .header{
+        gap: 10%;
     }
     
     .footer{
@@ -65,8 +61,8 @@
 }
 
 @media screen and (max-width: 782px){
-    .menu{
-        margin-right: 30rem;
+    .header{
+        gap:0;
     }
 
     .footer{
